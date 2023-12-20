@@ -4,6 +4,7 @@ import Header from "../src/components/Header";
 import Abaut from "./components/Abaut";
 import Blog from "./components/Blog";
 import Proyects from "./components/Proyects";
+import Home from "./components/Home";
 
 function App() {
 
@@ -12,9 +13,10 @@ function App() {
     <>
       <Router>
         <Header />
-        <div className="container mx-auto p-10 rounded bg-teal-200">
+        <div className="container mx-auto p-10 rounded ">
           <Routes>
-            <Route path="/" element={<Abaut />} />
+            <Route path="/" element={<Home/>} />
+            <Route path="/abaut" element={<Abaut />} />
             <Route path="/blog" element={<Blog />} />
             <Route path="/proyects" element={<Proyects />} />
           </Routes>
