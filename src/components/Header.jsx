@@ -21,7 +21,7 @@ const Header = () => {
             <Link to="/blog" class="text-lg font-semibold leading-6 text-gray-400  hover:text-white hover:underline hover:font-bold decoration-green-500">
               Blog
             </Link>
-            <Link to="/proyects" class="text-lg font-semibold leading-6 text-gray-400  hover:text-white hover:underline hover:font-bold decoration-yellow-300">
+            <Link to="/projects" class="text-lg font-semibold leading-6 text-gray-400  hover:text-white hover:underline hover:font-bold decoration-yellow-300">
               Projects
             </Link>
             <Link to="https://github.com/javierCh77" target="_blank" class="flex gap-2 text-lg font-semibold leading-6 text-gray-400  hover:text-white  hover:underline hover:font-bold decoration-indigo-500">

@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Header from "../src/components/Header";
 import Abaut from "./components/Abaut";
 import Blog from "./components/Blog";
-import Proyects from "./components/Proyects";
+import Projects from "./components/Projects";
 import Home from "./components/Home";
 
 function App() {
@@ -18,7 +18,7 @@ function App() {
             <Route path="/" element={<Home/>} />
             <Route path="/abaut" element={<Abaut />} />
             <Route path="/blog" element={<Blog />} />
-            <Route path="/proyects" element={<Proyects />} />
+            <Route path="/projects" element={<Projects />} />
           </Routes>
         </div>
       </Router>
