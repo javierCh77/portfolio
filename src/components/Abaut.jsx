@@ -6,6 +6,7 @@ import yo from '../assets/yo.jpeg'
 export default function Abaut() {
   return (
     <div className='flex flex-row gap-5'>
+    
         <div className='bg-slate-900 text-white  w-4/6  p-8 rounded '> 
             <h1 className=' text-5xl'>About me</h1>
             <p className='mt-10 text-xl'>

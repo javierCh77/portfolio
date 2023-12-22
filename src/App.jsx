@@ -5,15 +5,20 @@ import Abaut from "./components/Abaut";
 import Blog from "./components/Blog";
 import Projects from "./components/Projects";
 import Home from "./components/Home";
+import BackGround from "./components/BackGround";
+
+
 
 function App() {
 
 
   return (
     <>
+    
       <Router>
         <Header />
         <div className="container mx-auto p-10 rounded ">
+        <BackGround/>
           <Routes>
             <Route path="/" element={<Home/>} />
             <Route path="/abaut" element={<Abaut />} />
@@ -22,6 +27,7 @@ function App() {
           </Routes>
         </div>
       </Router>
+      
     </>
   );
 }
